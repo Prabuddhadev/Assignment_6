@@ -1,0 +1,114 @@
+body{
+    background-image: url("./Sahara.jpg");
+}
+.camel
+{
+    position:absolute;
+    top: 50px;
+    left: 50px;
+}
+.sahara
+{
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    color: azure;
+    text-shadow:5px 5px 5px grey;
+}
+.text
+{   position: absolute;
+    height: 230px;
+    width: 700px;
+    top: 250px;
+    left: 50px;
+    font-size: 20px;
+    font-family: 'Syne Mono', monospace;
+    color: rgb(4, 253, 199);
+}
+.Button
+{   
+   
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    color: rgb(7, 161, 110);
+    font-family: 'Syne Mono', monospace;
+    border-radius:40px;
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    border-color: aqua;
+    box-shadow: 1px 1px 5px rgb(248, 219, 219);
+    cursor: pointer;
+}
+.grid
+{
+    display: grid;
+    position: absolute;
+    top:200px;
+    left:800px;
+    grid-template-columns: auto auto;
+    row-gap: 50px;
+    column-gap: 100px;
+}
+
+.block
+{
+    height:200px;
+    width: 170px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    
+}
+
+#_1
+{
+    background-image: url("./pic-1.png");
+    background-size: 200px 170px;
+}
+#_2
+{   background-image: url("./pic-2.png");
+    background-size: 200px 170px;  
+}
+#_3
+{
+    background-image: url("./pic-3.png");
+    background-size: 200px 170px; 
+}
+#_4
+{   background-image: url("./pic-4.png");
+    background-size: 200px 170px; 
+}
+.sub
+{
+    font-size: 18px;
+    padding: 20px;
+}
+.discription
+{
+    height:180px;
+    width: 150px;
+    padding:  0px 20px 20px 20px;
+    color: rgb(207, 253, 4);
+}
+
+#_1:hover
+{
+    position: relative;
+    bottom:50px;
+}
+#_2:hover
+{
+    position: relative;
+    bottom:50px;
+}
+#_3:hover
+{
+    position: relative;
+    bottom:50px;
+}
+#_4:hover
+{
+    position: relative;
+    bottom:50px;
+}
